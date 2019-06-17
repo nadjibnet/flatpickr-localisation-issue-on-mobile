@@ -1,0 +1,23 @@
+<html>
+	<header>
+	
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+		<script src="https://npmcdn.com/flatpickr/dist/flatpickr.min.js"></script>
+		<script src="https://npmcdn.com/flatpickr/dist/l10n/ru.js"></script>
+	</header>
+	
+	<body style="text-align:center ">
+		<input id="datetimePicker" style="font-size:30px" />
+	</body>
+	
+	<script>
+		flatpickr.localize(flatpickr.l10ns.ru);
+		
+		flatpickr("#datetimePicker", 
+		{
+			
+		});
+	</script>
+</html>
